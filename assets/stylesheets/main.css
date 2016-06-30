@@ -128,21 +128,21 @@ h5{
     margin: 0;
     padding: 0;
 }
-blockquote {
+/*blockquote {
     width: 236px;
     margin-left: 20px;
     color: aquamarine;
     font-size: 100px;
     padding-top: 40px;
-}
+}*/
 /*==============================
 Header
 ==============================*/
 header{
     padding-top: 30px;
     padding-bottom: 50px;
-    background-color:  black;
-    
+    background-color:   #808080;
+    margin-bottom: 0;
 }
 /*-----------------
 links
@@ -171,8 +171,12 @@ nav li{
 nav a {
   font-weight: normal;
   padding: 10px 5px;
-  font-size: .80em;
+  font-size: 15px;
     text-decoration: none;
+    color: white;
+}
+a:hover{
+  color: #cc0000;
 }
 /*=========================
 Footer
@@ -193,6 +197,8 @@ Video
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-top: 0;
+    margin-bottom: 0;
     
     
 }
@@ -220,6 +226,8 @@ Gallery
     background-position: left;
     height: 100%;
     width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .hero-gallery{
     width: 100%;
