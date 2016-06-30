@@ -1,0 +1,264 @@
+img {
+  width: 100%;    
+}
+/*
+  ========================================
+  Register
+  ========================================
+*/
+
+.why-attend {
+  list-style: square;
+  margin: 0 0 22px 30px;
+}
+form {
+  margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.register-group label {
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.register-group input,
+.register-group textarea {
+  width: 100%;
+}
+.register-group select {
+  height: 34px;
+  width: 60px;
+}
+.register-group textarea {
+  height: 78px;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Poiret One', cursive;
+    padding-bottom: 0;
+    color: burlywood;
+}
+h4{
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+    padding-bottom: 0;
+    color: black;
+    padding-top: 20px;
+}
+h5{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 100;
+    
+}
+.main-content{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family: 'Cormorant', serif;
+    font-size: 30px;
+}
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container,
+.grid {
+  margin: 0 auto;
+  width: 960px;
+}
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.grid,
+.col-1-3,
+.col-2-3 {
+   padding-left: 5px;
+  padding-right: 5px;
+    margin: auto;
+    
+}
+.col-1-3,
+.col-2-3  {
+  display: inline-block;
+  vertical-align: top;
+}
+.col-1-3 {
+  width: 25%;
+}
+.col-2-3 {
+  width: 20%;
+}
+/*==============
+
+================*/
+.back {
+    height: 937px;
+    background: url(../images/hotel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+blockquote {
+    width: 236px;
+    margin-left: 20px;
+    color: aquamarine;
+    font-size: 100px;
+    padding-top: 40px;
+}
+/*==============================
+Header
+==============================*/
+header{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color:  black;
+    
+}
+/*-----------------
+links
+--------------------*/
+nav{
+    text-align: center;
+    margin: 20px 0 0 ;
+    padding: 10px 0;
+
+}
+nav ul{
+    list-style: none;
+  margin: 0 2px;
+  padding: 0;
+    width: 900px;
+    
+}
+nav li{
+     display: inline-block;
+   padding: 5px 5px;
+    width: 150px;
+    float: right;
+    
+
+}
+nav a {
+  font-weight: normal;
+  padding: 10px 5px;
+  font-size: .80em;
+    text-decoration: none;
+}
+/*=========================
+Footer
+==========================*/
+footer{
+    margin: 0;
+}
+/*=====================
+Video
+=======================*/
+.only-video{
+    padding: 10px 130px 10px 130px;
+}
+.main-back-image{
+    background-image: url(../images/hero1.jpg);
+    height: 937px;
+    width: 100%;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+}
+.float{
+    padding-top: 500px;
+    padding-bottom: 10px;
+    color: beige;
+    font-size: 50px;
+    
+}
+/*==================================
+Gallery
+====================================*/
+.gallery{
+
+    padding: 20px 15px 30px 65px;
+}
+.gallery-pad{
+    margin-left: auto;
+}
+.back-img{
+    background-image: url(../images/gallery-background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 100%;
+    width: 100%;
+}
+.hero-gallery{
+    width: 100%;
+    height: 80%;
+}
+.reservation-img{
+    background-image: url(../images/reservation-img.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    
+}
+/*======================================
+Reservation
+==========================================*/
+.btn{
+    border: 1px solid #00264d;
+    background-color: burlywood;
+    border-radius: 20px;
+}
+.btn-default{
+    border: 1px solid #cc6600;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+/*======================================
+Offers Page
+=====================================*/
+.offer{
+    
+    padding: 10px 40px 20px 100px;
+}
+.background-color{
+    background-color: darkgrey;
+}
